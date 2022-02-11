@@ -145,7 +145,7 @@ server.listen(listenAddress, () => {
   });
 });
 
-const STATIC_ASSETS_BASE = "/_nuxt/home/rizkhal/Project/tamael-news/dist" + "/" + "1644606162";
+const STATIC_ASSETS_BASE = "/_nuxt/home/rizkhal/Project/tamael-news/dist" + "/" + "1644608687";
 const PAYLOAD_JS = "/payload.js";
 const getClientManifest = cachedImport(() => import('/home/rizkhal/Project/tamael-news/.nuxt/dist/server/client.manifest.mjs'));
 const getSSRApp = cachedImport(() => import('/home/rizkhal/Project/tamael-news/.nuxt/dist/server/server.mjs'));

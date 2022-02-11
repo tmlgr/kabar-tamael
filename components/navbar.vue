@@ -2,7 +2,7 @@
   <header class="bg-white items-center shadow py-2 md:px-4 px-2">
     <div class="flex items-center p-3 px-4">
       <a href="/" class="text-xl font-bold uppercase"> Tamael </a>
-      <button @click.prevent="handleSidebarClick" type="button" class="ml-auto">
+      <button @click.prevent="handleClick" type="button" class="ml-auto">
         <icons-hamburger />
       </button>
     </div>
@@ -12,7 +12,9 @@
 <script setup>
 const isOpen = useFoo();
 
-const handleSidebarClick = () => {
+const handleClick = () => {
   isOpen.value = !isOpen.value;
+
+  console.log(isOpen.value);
 };
 </script>

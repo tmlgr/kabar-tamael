@@ -3,13 +3,12 @@
     <navbar />
 
     <div
-      :class="{ 'w-[100%]': isOpen, 'w-0': !isOpen }"
-      class="fixed top-0 bottom-0 left-0 z-50 block w-56 h-full min-h-screen overflow-y-auto text-gray-400 transition-all duration-300 ease-in-out bg-gray-900 shadow-lg overflow-x-hidden"
+      :class="[isOpen ? 'w-screen' : 'w-0']"
+      class="fixed top-0 block bottom-0 left-0 z-50 w-0 h-full min-h-screen overflow-y-auto text-gray-400 transition-all duration-300 ease-in-out bg-gray-900 shadow-lg overflow-x-hidden"
     >
-      <div class="flex items-center">
-        <div>Tamael</div>
-        <div>
-          <button @click.prevent="handleSidebarClick">
+      <div class="flex items-center p-6">
+        <div class="ml-auto">
+          <button @click.prevent="handleClick">
             <svg
               id="menu-close-icon"
               class="h-6 w-6 transition duration-200 ease-in-out"
@@ -42,7 +41,7 @@
 <script setup>
 const isOpen = useFoo();
 
-const handleSidebarClick = () => {
-  isOpen.value = !isOpen.value;
+const handleClick = () => {
+  isOpen.value = false;
 };
 </script>
