@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white items-center shadow">
+  <header class="bg-white items-center shadow py-2 md:px-4 px-2">
     <div class="flex items-center p-3 px-4">
       <a href="/" class="text-xl font-bold uppercase"> Tamael </a>
       <button class="ml-auto">

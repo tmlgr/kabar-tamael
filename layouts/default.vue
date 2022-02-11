@@ -5,8 +5,8 @@
     <div class="flex flex-row md:p-8">
       <leftbar />
 
-      <div class="w-full overflow-hidden p-6">
-        <nuxt />
+      <div class="w-full overflow-hidden">
+        <slot />
       </div>
     </div>
   </div>

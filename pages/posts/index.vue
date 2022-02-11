@@ -4,24 +4,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  layout: "default",
-  data() {
-    return {
-      posts: null,
-    };
-  },
-  mounted() {
-    this.getPosts();
-  },
-  methods: {
-    async getPosts() {
-      let response = await fetch("https://css-tricks.com/wp-json/wp/v2/posts");
-      let result = await response.json();
-
-      this.posts = result;
-    },
-  },
-};
+<script setup>
+//
 </script>
