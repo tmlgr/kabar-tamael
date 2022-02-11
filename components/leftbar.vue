@@ -36,7 +36,7 @@ export default {
   methods: {
     async getTags() {
       let response = await fetch(
-        "http://tamael.local:46031/wp-json/wp/v2/tags"
+        "https://css-tricks.com/wp-json/wp/v2/tags"
       );
       let results = await response.json();
 
@@ -46,7 +46,7 @@ export default {
     },
     async getCategories() {
       let response = await fetch(
-        "http://tamael.local:46031/wp-json/wp/v2/categories"
+        "https://css-tricks.com/wp-json/wp/v2/categories"
       );
       let results = await response.json();
 

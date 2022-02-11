@@ -2,8 +2,8 @@
   <div>
     <div class="mt-4 bg-white p-2 rounded-xl shadow-sm">
       <img
-        src="https://via.placeholder.com/700x300"
-        alt="Headline Image"
+        :src="post.featured_media_src_url"
+        :alt="post.title.rendered"
         class="rounded-xl object-fill min-w-full"
       />
       <div class="flex items-center px-6">
@@ -27,7 +27,7 @@
         </div>
       </div>
       <p class="mt-4 font-semibold px-4 pb-4">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam non qui adipisci tenetur similique ut dicta.
+        {{ post.title.rendered }}
       </p>
     </div>
   </div>
@@ -36,5 +36,8 @@
 <script>
 export default {
   name: "headline",
+  props: {
+    post: Object,
+  },
 };
 </script>

@@ -6,13 +6,13 @@
       </div>
       <div class="w-full flex justify-start items-center">
         <ul class="flex flex-row items-center space-x-8">
-          <li class="p-4 border-b-4 border-green-400">
+          <li class="p-4">
             <nuxt-link to="/">Beranda</nuxt-link>
           </li>
-          <li class="p-4 border-b-4 border-green-400">
+          <li class="p-4">
             <nuxt-link to="/posts">Kabar</nuxt-link>
           </li>
-          <li class="p-4 border-b-4 border-green-400">
+          <li class="p-4">
             <nuxt-link to="/videos">Video</nuxt-link>
           </li>
         </ul>
@@ -35,3 +35,12 @@ export default {
   name: "navbar",
 };
 </script>
+<style lang="css">
+a.nuxt-link-active {
+  font-weight: bold;
+}
+/* exact link will show the primary color for only the exact matching link */
+a.nuxt-link-exact-active {
+  color: #00c58e;
+}
+</style>
