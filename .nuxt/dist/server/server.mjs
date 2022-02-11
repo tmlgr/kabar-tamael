@@ -1,12 +1,12 @@
 
 // --------------------
-// Request: /home/rizkhal/Project/tamael-news-2/node_modules/nuxt3/dist/app/entry
+// Request: /home/rizkhal/Project/tamael-news/node_modules/nuxt3/dist/app/entry
 // Parents: 
 // - <entry> ($id_c757eb9e)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // --------------------
-const $id_9a6d43ef = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_25373c63 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const entry = true ? (ctx) => __vite_ssr_dynamic_import__('/node_modules/nuxt3/dist/app/bootstrap.mjs').then((m) => m.default(ctx)) : () => __vite_ssr_dynamic_import__('/node_modules/nuxt3/dist/app/bootstrap.mjs').then((m) => m.default);
 if (false) {
   entry();
@@ -19,27 +19,27 @@ __vite_ssr_exports__.default = entry;
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/bootstrap.mjs
 // Parents: 
-// - /home/rizkhal/Project/tamael-news-2/node_modules/nuxt3/dist/app/entry ($id_9a6d43ef)
+// - /home/rizkhal/Project/tamael-news/node_modules/nuxt3/dist/app/entry ($id_25373c63)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/css.mjs ($id_c64a0c4c)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/plugins/server.mjs ($id_335baa12)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/root-component.mjs ($id_10960c1c)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/app-component.mjs ($id_1501ce06)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/css.mjs ($id_e09c471c)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/plugins/server.mjs ($id_d6bcacbe)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/root-component.mjs ($id_f29eff87)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/app-component.mjs ($id_694de770)
 // --------------------
 const $id_fef466a9 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/css.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/css.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/root-component.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/app-component.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/app-component.mjs");
 
 let entry;
 const plugins = __vite_ssr_import_1__.normalizePlugins(__vite_ssr_import_3__.default);
@@ -99,7 +99,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt3/dist/pages/runtime/page.mjs ($id_485c89bf)
 // - /node_modules/nuxt3/dist/pages/runtime/utils.mjs ($id_e1b210cc)
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/layouts.mjs ($id_8a5724dc)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/layouts.mjs ($id_a6711541)
 // - /components/icons/hamburger.vue ($id_de732361)
 // - /components/navbar.vue ($id_ccd51fbe)
 // - /components/leftbar.vue ($id_f6660085)
@@ -115,7 +115,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /pages/posts/[slug].vue ($id_83940f72)
 // - /pages/posts/index.vue ($id_763a1eda)
 // - /pages/videos/index.vue ($id_ce816178)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs ($id_83e4d643)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs ($id_bb4a7915)
 // - /components/popular.vue ($id_aaef8ecc)
 // - /components/posts.vue ($id_1292e8ce)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
@@ -123,7 +123,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // Dependencies: 
 
 // --------------------
-const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/vue/dist/vue.cjs.js").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/vue/dist/vue.cjs.js\".") })
+const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/vue/dist/vue.cjs.js").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/vue/dist/vue.cjs.js\".") })
 
 
 // --------------------
@@ -311,7 +311,7 @@ function defineGetter(obj, key, val) {
 // Dependencies: 
 
 // --------------------
-const $id_a2c811c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/hookable/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/hookable/dist/index.mjs\".") })
+const $id_a2c811c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/hookable/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/hookable/dist/index.mjs\".") })
 
 
 // --------------------
@@ -436,7 +436,7 @@ Object.defineProperty(__vite_ssr_exports__, "legacyPlugin", { enumerable: true, 
 // Dependencies: 
 
 // --------------------
-const $id_39e12da7 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/unenv/runtime/mock/proxy.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/unenv/runtime/mock/proxy.mjs\".") })
+const $id_39e12da7 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/unenv/runtime/mock/proxy.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/unenv/runtime/mock/proxy.mjs\".") })
 
 
 // --------------------
@@ -554,7 +554,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 // Dependencies: 
 
 // --------------------
-const $id_f9a4a698 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/vue-router/dist/vue-router.cjs.js").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/vue-router/dist/vue-router.cjs.js\".") })
+const $id_f9a4a698 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/vue-router/dist/vue-router.cjs.js").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/vue-router/dist/vue-router.cjs.js\".") })
 
 
 // --------------------
@@ -767,7 +767,7 @@ function generateKey(keys) {
 // Dependencies: 
 
 // --------------------
-const $id_fbf6dac3 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/murmurhash-es/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/murmurhash-es/dist/index.mjs\".") })
+const $id_fbf6dac3 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/murmurhash-es/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/murmurhash-es/dist/index.mjs\".") })
 
 
 // --------------------
@@ -856,7 +856,7 @@ function writeServerCookie(res, name, value, opts = {}) {
 // Dependencies: 
 
 // --------------------
-const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/cookie-es/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/cookie-es/dist/index.mjs\".") })
+const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/cookie-es/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/cookie-es/dist/index.mjs\".") })
 
 
 // --------------------
@@ -866,7 +866,7 @@ const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/h3/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/h3/dist/index.mjs\".") })
+const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/h3/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/h3/dist/index.mjs\".") })
 
 
 // --------------------
@@ -876,7 +876,7 @@ const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_03d15ecd = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/destr/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/destr/dist/index.mjs\".") })
+const $id_03d15ecd = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/destr/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/destr/dist/index.mjs\".") })
 
 
 // --------------------
@@ -905,13 +905,13 @@ Object.defineProperty(__vite_ssr_exports__, "useRequestHeaders", { enumerable: t
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/css.mjs
+// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/css.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /assets/css/tailwind.css ($id_f75548e1)
 // --------------------
-const $id_c64a0c4c = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_e09c471c = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.css");
 ;
 }
@@ -920,17 +920,17 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 // --------------------
 // Request: /assets/css/tailwind.css
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/css.mjs ($id_c64a0c4c)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/css.mjs ($id_e09c471c)
 // Dependencies: 
 
 // --------------------
 const $id_f75548e1 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.21 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/*\nEnsure the default browser behavior of the `hidden` attribute.\n*/\n\n[hidden] {\n  display: none;\n}\n\n*, ::before, ::after {\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n.container {\n  width: 100%;\n}\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\n.visible {\n  visibility: visible;\n}\n.relative {\n  position: relative;\n}\n.inset-0 {\n  top: 0px;\n  right: 0px;\n  bottom: 0px;\n  left: 0px;\n}\n.right-0 {\n  right: 0px;\n}\n.float-right {\n  float: right;\n}\n.mx-2 {\n  margin-left: 0.5rem;\n  margin-right: 0.5rem;\n}\n.mx-4 {\n  margin-left: 1rem;\n  margin-right: 1rem;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.mt-4 {\n  margin-top: 1rem;\n}\n.ml-auto {\n  margin-left: auto;\n}\n.ml-4 {\n  margin-left: 1rem;\n}\n.mr-2 {\n  margin-right: 0.5rem;\n}\n.mb-4 {\n  margin-bottom: 1rem;\n}\n.mr-auto {\n  margin-right: auto;\n}\n.block {\n  display: block;\n}\n.flex {\n  display: flex;\n}\n.hidden {\n  display: none;\n}\n.h-6 {\n  height: 1.5rem;\n}\n.h-10 {\n  height: 2.5rem;\n}\n.h-64 {\n  height: 16rem;\n}\n.h-full {\n  height: 100%;\n}\n.h-1\\/2 {\n  height: 50%;\n}\n.h-40 {\n  height: 10rem;\n}\n.h-0 {\n  height: 0px;\n}\n.h-60 {\n  height: 15rem;\n}\n.h-24 {\n  height: 6rem;\n}\n.h-80 {\n  height: 20rem;\n}\n.h-\\[90px\\] {\n  height: 90px;\n}\n.min-h-full {\n  min-height: 100%;\n}\n.w-1\\/4 {\n  width: 25%;\n}\n.w-\\[6rem\\] {\n  width: 6rem;\n}\n.w-full {\n  width: 100%;\n}\n.w-6 {\n  width: 1.5rem;\n}\n.w-1\\/2 {\n  width: 50%;\n}\n.w-10 {\n  width: 2.5rem;\n}\n.w-auto {\n  width: auto;\n}\n.w-40 {\n  width: 10rem;\n}\n.w-0 {\n  width: 0px;\n}\n.w-60 {\n  width: 15rem;\n}\n.w-\\[90px\\] {\n  width: 90px;\n}\n.min-w-full {\n  min-width: 100%;\n}\n.max-w-sm {\n  max-width: 24rem;\n}\n.flex-shrink {\n  flex-shrink: 1;\n}\n.resize {\n  resize: both;\n}\n.flex-row {\n  flex-direction: row;\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-center {\n  align-items: center;\n}\n.justify-between {\n  justify-content: space-between;\n}\n.gap-2 {\n  gap: 0.5rem;\n}\n.space-y-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\n.space-y-3 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));\n}\n.space-x-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.5rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));\n}\n.space-x-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1rem * var(--tw-space-x-reverse));\n  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n}\n.space-y-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\n.space-y-0\\.5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.125rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.125rem * var(--tw-space-y-reverse));\n}\n.space-y-0 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0px * var(--tw-space-y-reverse));\n}\n.divide-y > :not([hidden]) ~ :not([hidden]) {\n  --tw-divide-y-reverse: 0;\n  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));\n  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));\n}\n.overflow-hidden {\n  overflow: hidden;\n}\n.truncate {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n.rounded-lg {\n  border-radius: 0.5rem;\n}\n.rounded-full {\n  border-radius: 9999px;\n}\n.rounded-xl {\n  border-radius: 0.75rem;\n}\n.border-\\[2px\\] {\n  border-width: 2px;\n}\n.border {\n  border-width: 1px;\n}\n.border-green-500 {\n  --tw-border-opacity: 1;\n  border-color: rgb(34 197 94 / var(--tw-border-opacity));\n}\n.border-purple-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(233 213 255 / var(--tw-border-opacity));\n}\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n.bg-green-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(34 197 94 / var(--tw-bg-opacity));\n}\n.bg-green-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(134 239 172 / var(--tw-bg-opacity));\n}\n.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n.object-cover {\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.object-fill {\n  -o-object-fit: fill;\n     object-fit: fill;\n}\n.object-center {\n  -o-object-position: center;\n     object-position: center;\n}\n.p-4 {\n  padding: 1rem;\n}\n.p-3 {\n  padding: 0.75rem;\n}\n.p-2 {\n  padding: 0.5rem;\n}\n.p-6 {\n  padding: 1.5rem;\n}\n.p-1 {\n  padding: 0.25rem;\n}\n.p-\\[15px\\] {\n  padding: 15px;\n}\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n.py-\\[1px\\] {\n  padding-top: 1px;\n  padding-bottom: 1px;\n}\n.py-4 {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n.py-8 {\n  padding-top: 2rem;\n  padding-bottom: 2rem;\n}\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n.pb-4 {\n  padding-bottom: 1rem;\n}\n.pr-2 {\n  padding-right: 0.5rem;\n}\n.pr-8 {\n  padding-right: 2rem;\n}\n.pr-12 {\n  padding-right: 3rem;\n}\n.pr-16 {\n  padding-right: 4rem;\n}\n.pr-20 {\n  padding-right: 5rem;\n}\n.pr-24 {\n  padding-right: 6rem;\n}\n.text-center {\n  text-align: center;\n}\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n.font-bold {\n  font-weight: 700;\n}\n.font-medium {\n  font-weight: 500;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.uppercase {\n  text-transform: uppercase;\n}\n.leading-tight {\n  line-height: 1.25;\n}\n.text-green-700 {\n  --tw-text-opacity: 1;\n  color: rgb(21 128 61 / var(--tw-text-opacity));\n}\n.text-gray-800 {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n.text-black {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\n.text-slate-500 {\n  --tw-text-opacity: 1;\n  color: rgb(100 116 139 / var(--tw-text-opacity));\n}\n.text-purple-600 {\n  --tw-text-opacity: 1;\n  color: rgb(147 51 234 / var(--tw-text-opacity));\n}\n.shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.shadow {\n  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.shadow-xl {\n  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.hover\\:border-transparent:hover {\n  border-color: transparent;\n}\n.hover\\:bg-purple-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 51 234 / var(--tw-bg-opacity));\n}\n.hover\\:text-white:hover {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n.focus\\:outline-none:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n.focus\\:ring-2:focus {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n.focus\\:ring-purple-600:focus {\n  --tw-ring-opacity: 1;\n  --tw-ring-color: rgb(147 51 234 / var(--tw-ring-opacity));\n}\n.focus\\:ring-offset-2:focus {\n  --tw-ring-offset-width: 2px;\n}\n@media (min-width: 640px) {\n\n  .sm\\:mx-0 {\n    margin-left: 0px;\n    margin-right: 0px;\n  }\n\n  .sm\\:flex {\n    display: flex;\n  }\n\n  .sm\\:shrink-0 {\n    flex-shrink: 0;\n  }\n\n  .sm\\:items-center {\n    align-items: center;\n  }\n\n  .sm\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .sm\\:space-x-6 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-x-reverse: 0;\n    margin-right: calc(1.5rem * var(--tw-space-x-reverse));\n    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));\n  }\n\n  .sm\\:py-4 {\n    padding-top: 1rem;\n    padding-bottom: 1rem;\n  }\n\n  .sm\\:text-left {\n    text-align: left;\n  }\n}\n@media (min-width: 768px) {\n\n  .md\\:flex {\n    display: flex;\n  }\n\n  .md\\:w-1\\/2 {\n    width: 50%;\n  }\n\n  .md\\:flex-row {\n    flex-direction: row;\n  }\n\n  .md\\:p-8 {\n    padding: 2rem;\n  }\n\n  .md\\:px-4 {\n    padding-left: 1rem;\n    padding-right: 1rem;\n  }\n}\n";
+__vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.21 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/*\nEnsure the default browser behavior of the `hidden` attribute.\n*/\n\n[hidden] {\n  display: none;\n}\n\n*, ::before, ::after {\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n.container {\n  width: 100%;\n}\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\n.visible {\n  visibility: visible;\n}\n.relative {\n  position: relative;\n}\n.float-right {\n  float: right;\n}\n.mt-4 {\n  margin-top: 1rem;\n}\n.ml-auto {\n  margin-left: auto;\n}\n.ml-4 {\n  margin-left: 1rem;\n}\n.mr-2 {\n  margin-right: 0.5rem;\n}\n.flex {\n  display: flex;\n}\n.hidden {\n  display: none;\n}\n.h-\\[90px\\] {\n  height: 90px;\n}\n.h-6 {\n  height: 1.5rem;\n}\n.min-h-full {\n  min-height: 100%;\n}\n.w-1\\/4 {\n  width: 25%;\n}\n.w-\\[6rem\\] {\n  width: 6rem;\n}\n.w-full {\n  width: 100%;\n}\n.w-\\[90px\\] {\n  width: 90px;\n}\n.w-6 {\n  width: 1.5rem;\n}\n.min-w-full {\n  min-width: 100%;\n}\n.flex-shrink {\n  flex-shrink: 1;\n}\n.resize {\n  resize: both;\n}\n.flex-row {\n  flex-direction: row;\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-center {\n  align-items: center;\n}\n.gap-2 {\n  gap: 0.5rem;\n}\n.space-y-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\n.space-y-3 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));\n}\n.space-x-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.5rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));\n}\n.space-x-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1rem * var(--tw-space-x-reverse));\n  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n}\n.divide-y > :not([hidden]) ~ :not([hidden]) {\n  --tw-divide-y-reverse: 0;\n  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));\n  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));\n}\n.overflow-hidden {\n  overflow: hidden;\n}\n.rounded-lg {\n  border-radius: 0.5rem;\n}\n.rounded-full {\n  border-radius: 9999px;\n}\n.rounded-xl {\n  border-radius: 0.75rem;\n}\n.border-\\[2px\\] {\n  border-width: 2px;\n}\n.border-green-500 {\n  --tw-border-opacity: 1;\n  border-color: rgb(34 197 94 / var(--tw-border-opacity));\n}\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n.bg-green-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(34 197 94 / var(--tw-bg-opacity));\n}\n.bg-green-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(134 239 172 / var(--tw-bg-opacity));\n}\n.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n.object-cover {\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.object-fill {\n  -o-object-fit: fill;\n     object-fit: fill;\n}\n.p-4 {\n  padding: 1rem;\n}\n.p-3 {\n  padding: 0.75rem;\n}\n.p-2 {\n  padding: 0.5rem;\n}\n.p-6 {\n  padding: 1.5rem;\n}\n.p-\\[15px\\] {\n  padding: 15px;\n}\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n.py-\\[1px\\] {\n  padding-top: 1px;\n  padding-bottom: 1px;\n}\n.pb-4 {\n  padding-bottom: 1rem;\n}\n.pr-24 {\n  padding-right: 6rem;\n}\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n.font-bold {\n  font-weight: 700;\n}\n.font-medium {\n  font-weight: 500;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.uppercase {\n  text-transform: uppercase;\n}\n.leading-tight {\n  line-height: 1.25;\n}\n.text-green-700 {\n  --tw-text-opacity: 1;\n  color: rgb(21 128 61 / var(--tw-text-opacity));\n}\n.text-gray-800 {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n.shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.shadow {\n  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n@media (min-width: 768px) {\n\n  .md\\:flex {\n    display: flex;\n  }\n\n  .md\\:p-8 {\n    padding: 2rem;\n  }\n\n  .md\\:px-4 {\n    padding-left: 1rem;\n    padding-right: 1rem;\n  }\n}\n";
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/plugins/server.mjs
+// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/plugins/server.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
@@ -939,9 +939,9 @@ __vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.21 | MIT License | https:
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // - /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs ($id_7b587af2)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs ($id_83e4d643)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs ($id_bb4a7915)
 // --------------------
-const $id_335baa12 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_d6bcacbe = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/plugins/preload.server.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs");
@@ -952,7 +952,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs");
 
 __vite_ssr_exports__.default = [
   __vite_ssr_import_0__.default,
@@ -968,7 +968,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/plugins/server.mjs ($id_335baa12)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/plugins/server.mjs ($id_d6bcacbe)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // --------------------
@@ -991,7 +991,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 // --------------------
 // Request: /node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/plugins/server.mjs ($id_335baa12)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/plugins/server.mjs ($id_d6bcacbe)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -1436,13 +1436,13 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/meta/runtime/plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/plugins/server.mjs ($id_335baa12)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/plugins/server.mjs ($id_d6bcacbe)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/meta/runtime/components.mjs ($id_94744df3)
 // - /node_modules/nuxt3/dist/meta/runtime/composables.mjs ($id_ca9295be)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/meta.config.mjs ($id_283924a0)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/meta.config.mjs ($id_696af0d5)
 // --------------------
 const $id_9fd5f35e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1453,7 +1453,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/meta.config.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) => {
   __vite_ssr_import_2__.useMeta(__vite_ssr_import_4__.default.globalMeta);
@@ -1720,17 +1720,17 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 // Dependencies: 
 
 // --------------------
-const $id_852b06a2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/@vue/shared/dist/shared.cjs.js").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/@vue/shared/dist/shared.cjs.js\".") })
+const $id_852b06a2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/@vue/shared/dist/shared.cjs.js").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/@vue/shared/dist/shared.cjs.js\".") })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/meta.config.mjs
+// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // Dependencies: 
 
 // --------------------
-const $id_283924a0 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_696af0d5 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[],"style":[],"script":[]},"mixinKey":"created"};
 }
 
@@ -1738,15 +1738,15 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name
 // --------------------
 // Request: /node_modules/nuxt3/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/plugins/server.mjs ($id_335baa12)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/plugins/server.mjs ($id_d6bcacbe)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
 // - /node_modules/nuxt3/dist/pages/runtime/page.mjs ($id_485c89bf)
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs ($id_1d110c72)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/middleware.mjs ($id_4392ebd3)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs ($id_a44447d6)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/middleware.mjs ($id_12f8d7b9)
 // --------------------
 const $id_a4d6cb5b = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1759,9 +1759,9 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/middleware.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/middleware.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_4__.defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component("NuxtPage", __vite_ssr_import_2__.default);
@@ -1935,7 +1935,7 @@ Object.defineProperty(__vite_ssr_exports__, "wrapInKeepAlive", { enumerable: tru
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
 // - /node_modules/nuxt3/dist/pages/runtime/utils.mjs ($id_e1b210cc)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/layouts.mjs ($id_8a5724dc)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/layouts.mjs ($id_a6711541)
 // --------------------
 const $id_9b68c93f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1944,7 +1944,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue-route
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/utils.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/layouts.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/layouts.mjs");
 
 const defaultLayoutTransition = { name: "layout", mode: "out-in" };
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
@@ -1971,14 +1971,14 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/layouts.mjs
+// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/layouts.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /layouts/default.vue ($id_7689e89d)
 // --------------------
-const $id_8a5724dc = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a6711541 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 __vite_ssr_exports__.default = {
@@ -1990,7 +1990,7 @@ __vite_ssr_exports__.default = {
 // --------------------
 // Request: /layouts/default.vue
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/layouts.mjs ($id_8a5724dc)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/layouts.mjs ($id_a6711541)
 // Dependencies: 
 // - /components/navbar.vue ($id_ccd51fbe)
 // - /components/leftbar.vue ($id_f6660085)
@@ -2044,7 +2044,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/layouts/default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/layouts/default.vue"]]);
 }
 
 
@@ -2052,7 +2052,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_m
 // Request: /components/navbar.vue
 // Parents: 
 // - /layouts/default.vue ($id_7689e89d)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs ($id_83e4d643)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs ($id_bb4a7915)
 // Dependencies: 
 // - /components/icons/hamburger.vue ($id_de732361)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2097,7 +2097,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/components/navbar.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/components/navbar.vue"]]);
 }
 
 
@@ -2105,7 +2105,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // Request: /components/icons/hamburger.vue
 // Parents: 
 // - /components/navbar.vue ($id_ccd51fbe)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs ($id_83e4d643)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs ($id_bb4a7915)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -2141,7 +2141,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/components/icons/hamburger.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/components/icons/hamburger.vue"]]);
 }
 
 
@@ -2170,7 +2170,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Dependencies: 
 
 // --------------------
-const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/vue/server-renderer/index.js").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/vue/server-renderer/index.js\".") })
+const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/vue/server-renderer/index.js").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/vue/server-renderer/index.js\".") })
 
 
 // --------------------
@@ -2227,7 +2227,7 @@ __vite_ssr_exports__.default = "\na.nuxt-link-active {\n  font-weight: bold;\n}\
 // Request: /components/leftbar.vue
 // Parents: 
 // - /layouts/default.vue ($id_7689e89d)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs ($id_83e4d643)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs ($id_bb4a7915)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
@@ -2291,12 +2291,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/components/leftbar.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/components/leftbar.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs
+// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
@@ -2309,7 +2309,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /pages/posts/index.vue ($id_763a1eda)
 // - /pages/videos/index.vue ($id_ce816178)
 // --------------------
-const $id_1d110c72 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a44447d6 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/posts/[slug].vue?macro=true");
@@ -2322,7 +2322,7 @@ __vite_ssr_exports__.default = [
   {
     name: "index",
     path: "/",
-    file: "/home/rizkhal/Project/tamael-news-2/pages/index.vue",
+    file: "/home/rizkhal/Project/tamael-news/pages/index.vue",
     children: [],
     meta: __vite_ssr_import_0__.meta,
     component: () => __vite_ssr_dynamic_import__('/pages/index.vue')
@@ -2330,7 +2330,7 @@ __vite_ssr_exports__.default = [
   {
     name: "posts-slug",
     path: "/posts/:slug",
-    file: "/home/rizkhal/Project/tamael-news-2/pages/posts/[slug].vue",
+    file: "/home/rizkhal/Project/tamael-news/pages/posts/[slug].vue",
     children: [],
     meta: __vite_ssr_import_1__.meta,
     component: () => __vite_ssr_dynamic_import__('/pages/posts/[slug].vue')
@@ -2338,7 +2338,7 @@ __vite_ssr_exports__.default = [
   {
     name: "posts",
     path: "/posts",
-    file: "/home/rizkhal/Project/tamael-news-2/pages/posts/index.vue",
+    file: "/home/rizkhal/Project/tamael-news/pages/posts/index.vue",
     children: [],
     meta: __vite_ssr_import_2__.meta,
     component: () => __vite_ssr_dynamic_import__('/pages/posts/index.vue')
@@ -2346,7 +2346,7 @@ __vite_ssr_exports__.default = [
   {
     name: "videos",
     path: "/videos",
-    file: "/home/rizkhal/Project/tamael-news-2/pages/videos/index.vue",
+    file: "/home/rizkhal/Project/tamael-news/pages/videos/index.vue",
     children: [],
     meta: __vite_ssr_import_3__.meta,
     component: () => __vite_ssr_dynamic_import__('/pages/videos/index.vue')
@@ -2358,7 +2358,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /pages/index.vue?macro=true
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs ($id_1d110c72)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs ($id_a44447d6)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
@@ -2454,7 +2454,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/pages/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/pages/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -2463,7 +2463,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/posts/[slug].vue?macro=true
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs ($id_1d110c72)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs ($id_a44447d6)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2493,7 +2493,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/pages/posts/[slug].vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/pages/posts/[slug].vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -2502,7 +2502,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/posts/index.vue?macro=true
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs ($id_1d110c72)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs ($id_a44447d6)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -2550,7 +2550,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/pages/posts/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/pages/posts/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -2559,7 +2559,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/videos/index.vue?macro=true
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs ($id_1d110c72)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs ($id_a44447d6)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2589,7 +2589,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/pages/videos/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/pages/videos/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -2598,7 +2598,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs ($id_1d110c72)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs ($id_a44447d6)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
@@ -2699,7 +2699,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/pages/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/pages/index.vue"]]);
 }
 
 
@@ -2707,7 +2707,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_m
 // Request: /components/page-title.vue
 // Parents: 
 // - /pages/index.vue ($id_cca58e97)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs ($id_83e4d643)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs ($id_bb4a7915)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -2745,7 +2745,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/components/page-title.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/components/page-title.vue"]]);
 }
 
 
@@ -2754,7 +2754,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Parents: 
 // - /pages/index.vue ($id_cca58e97)
 // - /pages/posts/index.vue ($id_763a1eda)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs ($id_83e4d643)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs ($id_bb4a7915)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /components/horizontal-list.vue ($id_a31e722f)
@@ -2911,7 +2911,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-3fdf780f"],['__file',"/home/rizkhal/Project/tamael-news-2/components/headline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-3fdf780f"],['__file',"/home/rizkhal/Project/tamael-news/components/headline.vue"]]);
 }
 
 
@@ -2919,7 +2919,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // Request: /components/horizontal-list.vue
 // Parents: 
 // - /components/headline.vue ($id_a2a60e42)
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs ($id_83e4d643)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs ($id_bb4a7915)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -3326,7 +3326,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-73a974bc"],['__file',"/home/rizkhal/Project/tamael-news-2/components/horizontal-list.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-73a974bc"],['__file',"/home/rizkhal/Project/tamael-news/components/horizontal-list.vue"]]);
 }
 
 
@@ -3357,7 +3357,7 @@ __vite_ssr_exports__.default = "\np[data-v-3fdf780f],\nh3[data-v-3fdf780f],\nh2[
 // --------------------
 // Request: /pages/posts/[slug].vue
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs ($id_1d110c72)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs ($id_a44447d6)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -3387,14 +3387,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/pages/posts/[slug].vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/pages/posts/[slug].vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/posts/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs ($id_1d110c72)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs ($id_a44447d6)
 // Dependencies: 
 // - /components/headline.vue ($id_a2a60e42)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -3445,14 +3445,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/pages/posts/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/pages/posts/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/videos/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs ($id_1d110c72)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs ($id_a44447d6)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -3482,18 +3482,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/pages/videos/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/pages/videos/index.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/middleware.mjs
+// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/middleware.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
 
 // --------------------
-const $id_4392ebd3 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_12f8d7b9 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const globalMiddleware = []
 Object.defineProperty(__vite_ssr_exports__, "globalMiddleware", { enumerable: true, configurable: true, get(){ return globalMiddleware }});
 const namedMiddleware = {}
@@ -3504,7 +3504,7 @@ Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: tru
 // --------------------
 // Request: /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/plugins/server.mjs ($id_335baa12)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/plugins/server.mjs ($id_d6bcacbe)
 // Dependencies: 
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_780217c4)
 // --------------------
@@ -3528,13 +3528,13 @@ __vite_ssr_exports__.default = () => {}
 // Dependencies: 
 
 // --------------------
-const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news-2/node_modules/ohmyfetch/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news-2/node_modules/ohmyfetch/dist/index.mjs\".") })
+const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import("file:///home/rizkhal/Project/tamael-news/node_modules/ohmyfetch/dist/index.mjs").then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error("[vite dev] Error loading external \"/home/rizkhal/Project/tamael-news/node_modules/ohmyfetch/dist/index.mjs\".") })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs
+// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/plugins/server.mjs ($id_335baa12)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/plugins/server.mjs ($id_d6bcacbe)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /components/headline.vue ($id_a2a60e42)
@@ -3546,7 +3546,7 @@ const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // - /components/posts.vue ($id_1292e8ce)
 // - /components/icons/hamburger.vue ($id_de732361)
 // --------------------
-const $id_83e4d643 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_bb4a7915 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
@@ -3574,7 +3574,7 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 // --------------------
 // Request: /components/popular.vue
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs ($id_83e4d643)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs ($id_bb4a7915)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -3629,14 +3629,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/components/popular.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/components/popular.vue"]]);
 }
 
 
 // --------------------
 // Request: /components/posts.vue
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs ($id_83e4d643)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs ($id_bb4a7915)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -3679,18 +3679,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/components/posts.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/components/posts.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/root-component.mjs
+// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/root-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // --------------------
-const $id_10960c1c = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_f29eff87 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -3700,7 +3700,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/root-component.mjs ($id_10960c1c)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/root-component.mjs ($id_f29eff87)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -3753,18 +3753,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/node_modules/nuxt3/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/node_modules/nuxt3/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/app-component.mjs
+// Request: /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/app-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // --------------------
-const $id_1501ce06 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_694de770 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -3774,7 +3774,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/pages/runtime/app.vue
 // Parents: 
-// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/app-component.mjs ($id_1501ce06)
+// - /@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/app-component.mjs ($id_694de770)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -3816,12 +3816,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news-2/node_modules/nuxt3/dist/pages/runtime/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/rizkhal/Project/tamael-news/node_modules/nuxt3/dist/pages/runtime/app.vue"]]);
 }
 
 
 const __modules__ = {
-  "/home/rizkhal/Project/tamael-news-2/node_modules/nuxt3/dist/app/entry": $id_9a6d43ef,
+  "/home/rizkhal/Project/tamael-news/node_modules/nuxt3/dist/app/entry": $id_25373c63,
   "/node_modules/nuxt3/dist/app/bootstrap.mjs": $id_fef466a9,
   "/node_modules/vue/dist/vue.cjs.js": $id_60f0615f,
   "/node_modules/nuxt3/dist/app/index.mjs": $id_d8c2af0f,
@@ -3842,9 +3842,9 @@ const __modules__ = {
   "/node_modules/h3/dist/index.mjs": $id_57d7ded6,
   "/node_modules/destr/dist/index.mjs": $id_03d15ecd,
   "/node_modules/nuxt3/dist/app/composables/ssr.mjs": $id_4d0dc923,
-  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/css.mjs": $id_c64a0c4c,
+  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/css.mjs": $id_e09c471c,
   "/assets/css/tailwind.css": $id_f75548e1,
-  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/plugins/server.mjs": $id_335baa12,
+  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/plugins/server.mjs": $id_d6bcacbe,
   "/node_modules/nuxt3/dist/app/plugins/preload.server.mjs": $id_b9f3c557,
   "/node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs": $id_cbe5172d,
   "/node_modules/@vueuse/head/dist/index.mjs": $id_c032264e,
@@ -3852,12 +3852,12 @@ const __modules__ = {
   "/node_modules/nuxt3/dist/meta/runtime/components.mjs": $id_94744df3,
   "/node_modules/nuxt3/dist/meta/runtime/composables.mjs": $id_ca9295be,
   "/node_modules/@vue/shared/dist/shared.cjs.js": $id_852b06a2,
-  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/meta.config.mjs": $id_283924a0,
+  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/meta.config.mjs": $id_696af0d5,
   "/node_modules/nuxt3/dist/pages/runtime/router.mjs": $id_a4d6cb5b,
   "/node_modules/nuxt3/dist/pages/runtime/page.mjs": $id_485c89bf,
   "/node_modules/nuxt3/dist/pages/runtime/utils.mjs": $id_e1b210cc,
   "/node_modules/nuxt3/dist/pages/runtime/layout.mjs": $id_9b68c93f,
-  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/layouts.mjs": $id_8a5724dc,
+  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/layouts.mjs": $id_a6711541,
   "/layouts/default.vue": $id_7689e89d,
   "/components/navbar.vue": $id_ccd51fbe,
   "/components/icons/hamburger.vue": $id_de732361,
@@ -3865,7 +3865,7 @@ const __modules__ = {
   "/@id/plugin-vue:export-helper": $id_bbb863c1,
   "/components/navbar.vue?vue&type=style&index=0&lang.css": $id_96e91790,
   "/components/leftbar.vue": $id_f6660085,
-  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/routes.mjs": $id_1d110c72,
+  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/routes.mjs": $id_a44447d6,
   "/pages/index.vue?macro=true": $id_5dd70240,
   "/pages/posts/[slug].vue?macro=true": $id_1478ca25,
   "/pages/posts/index.vue?macro=true": $id_9751f318,
@@ -3879,15 +3879,15 @@ const __modules__ = {
   "/pages/posts/[slug].vue": $id_83940f72,
   "/pages/posts/index.vue": $id_763a1eda,
   "/pages/videos/index.vue": $id_ce816178,
-  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/middleware.mjs": $id_4392ebd3,
+  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/middleware.mjs": $id_12f8d7b9,
   "/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs": $id_7b587af2,
   "/node_modules/ohmyfetch/dist/index.mjs": $id_780217c4,
-  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/components.mjs": $id_83e4d643,
+  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/components.mjs": $id_bb4a7915,
   "/components/popular.vue": $id_aaef8ecc,
   "/components/posts.vue": $id_1292e8ce,
-  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/root-component.mjs": $id_10960c1c,
+  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/root-component.mjs": $id_f29eff87,
   "/node_modules/nuxt3/dist/app/components/nuxt-root.vue": $id_f8564e04,
-  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news-2/.nuxt/app-component.mjs": $id_1501ce06,
+  "/@id/__x00__virtual:/home/rizkhal/Project/tamael-news/.nuxt/app-component.mjs": $id_694de770,
   "/node_modules/nuxt3/dist/pages/runtime/app.vue": $id_0851ff57
 }
 
@@ -3965,4 +3965,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__("/home/rizkhal/Project/tamael-news-2/node_modules/nuxt3/dist/app/entry")
+export default await __ssrLoadModule__("/home/rizkhal/Project/tamael-news/node_modules/nuxt3/dist/app/entry")

@@ -14,7 +14,7 @@ import { createRenderer } from 'vue-bundle-renderer';
 import devalue from '@nuxt/devalue';
 import defu from 'defu';
 import { joinURL } from 'ufo';
-import htmlTemplate from '/home/rizkhal/Project/tamael-news-2/.nuxt/views/document.template.mjs';
+import htmlTemplate from '/home/rizkhal/Project/tamael-news/.nuxt/views/document.template.mjs';
 import { renderToString as renderToString$2 } from 'vue/server-renderer';
 
 const _runtimeConfig = {public:{API_BASE:"https:\u002F\u002Fcss-tricks.com",app:{baseURL:"\u002F",buildAssetsDir:"\u002F_nuxt\u002F",assetsPath:{},cdnURL:null}},private:{}};
@@ -145,10 +145,10 @@ server.listen(listenAddress, () => {
   });
 });
 
-const STATIC_ASSETS_BASE = "/_nuxt/home/rizkhal/Project/tamael-news-2/dist" + "/" + "1644589231";
+const STATIC_ASSETS_BASE = "/_nuxt/home/rizkhal/Project/tamael-news/dist" + "/" + "1644592593";
 const PAYLOAD_JS = "/payload.js";
-const getClientManifest = cachedImport(() => import('/home/rizkhal/Project/tamael-news-2/.nuxt/dist/server/client.manifest.mjs'));
-const getSSRApp = cachedImport(() => import('/home/rizkhal/Project/tamael-news-2/.nuxt/dist/server/server.mjs'));
+const getClientManifest = cachedImport(() => import('/home/rizkhal/Project/tamael-news/.nuxt/dist/server/client.manifest.mjs'));
+const getSSRApp = cachedImport(() => import('/home/rizkhal/Project/tamael-news/.nuxt/dist/server/server.mjs'));
 const getSSRRenderer = cachedResult(async () => {
   const clientManifest = await getClientManifest();
   if (!clientManifest) {
