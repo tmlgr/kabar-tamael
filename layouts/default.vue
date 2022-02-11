@@ -2,6 +2,34 @@
   <div class="bg-gray-100">
     <navbar />
 
+    <div
+      :class="{ 'w-[100%]': isOpen, 'w-0': !isOpen }"
+      class="fixed top-0 bottom-0 left-0 z-50 block w-56 h-full min-h-screen overflow-y-auto text-gray-400 transition-all duration-300 ease-in-out bg-gray-900 shadow-lg overflow-x-hidden"
+    >
+      <div class="flex items-center">
+        <div>Tamael</div>
+        <div>
+          <button @click.prevent="handleSidebarClick">
+            <svg
+              id="menu-close-icon"
+              class="h-6 w-6 transition duration-200 ease-in-out"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
     <div class="flex flex-row md:p-8">
       <leftbar />
 
@@ -11,14 +39,10 @@
     </div>
   </div>
 </template>
-<script>
-import leftbar from "~/components/leftbar.vue";
-import navbar from "~/components/navbar.vue";
+<script setup>
+const isOpen = useFoo();
 
-export default {
-  components: {
-    navbar,
-    leftbar,
-  },
+const handleSidebarClick = () => {
+  isOpen.value = !isOpen.value;
 };
 </script>

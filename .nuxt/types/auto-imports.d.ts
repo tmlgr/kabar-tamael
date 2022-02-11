@@ -70,6 +70,7 @@ declare global {
   const useCssVars: typeof import("vue")['useCssVars']
   const useSlots: typeof import("vue")['useSlots']
   const useTransitionState: typeof import("vue")['useTransitionState']
+  const useFoo: typeof import("../../composables/use-foo")['default']
   const useRouter: typeof import("../../node_modules/nuxt3/dist/pages/runtime/composables")['useRouter']
   const useRoute: typeof import("../../node_modules/nuxt3/dist/pages/runtime/composables")['useRoute']
   const defineNuxtRouteMiddleware: typeof import("../../node_modules/nuxt3/dist/pages/runtime/composables")['defineNuxtRouteMiddleware']

@@ -8,6 +8,7 @@ declare module 'vue' {
     'PageTitle': typeof import("../../components/page-title.vue")['default'],
     'Popular': typeof import("../../components/popular.vue")['default'],
     'Posts': typeof import("../../components/posts.vue")['default'],
+    'SinglePost': typeof import("../../components/single-post.vue")['default'],
     'IconsHamburger': typeof import("../../components/icons/hamburger.vue")['default'],
     'NuxtWelcome': typeof import("../../node_modules/nuxt3/dist/app/components/nuxt-welcome.vue")['default'],
     'ClientOnly': typeof import("../../node_modules/nuxt3/dist/app/components/client-only")['default']

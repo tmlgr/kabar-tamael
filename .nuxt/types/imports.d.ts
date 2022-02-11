@@ -2,4 +2,5 @@ export { useAsyncData, useLazyAsyncData, defineNuxtComponent, useNuxtApp, define
 export { useMeta } from "#meta";
 export { isVue2, isVue3 } from "vue-demi";
 export { withCtx, withDirectives, withKeys, withMemo, withModifiers, withScopeId, onActivated, onBeforeMount, onBeforeUnmount, onBeforeUpdate, onDeactivated, onErrorCaptured, onMounted, onRenderTracked, onRenderTriggered, onServerPrefetch, onUnmounted, onUpdated, computed, customRef, isProxy, isReactive, isReadonly, isRef, markRaw, proxyRefs, reactive, readonly, ref, shallowReactive, shallowReadonly, shallowRef, toRaw, toRef, toRefs, triggerRef, unref, watch, watchEffect, isShallow, effect, effectScope, getCurrentScope, onScopeDispose, defineComponent, defineAsyncComponent, getCurrentInstance, h, inject, nextTick, provide, useAttrs, useCssModule, useCssVars, useSlots, useTransitionState } from "vue";
+export { default as useFoo } from "/home/rizkhal/Project/tamael-news/composables/use-foo.js";
 export { useRouter, useRoute, defineNuxtRouteMiddleware, definePageMeta, navigateTo, abortNavigation, addRouteMiddleware } from "/home/rizkhal/Project/tamael-news/node_modules/nuxt3/dist/pages/runtime/composables";
