@@ -2,19 +2,18 @@
   <div class="bg-gray-100">
     <navbar />
 
-    <div class="flex flex-row space-x-4 p-6">
+    <div class="flex flex-row md:p-8">
       <leftbar />
 
-      <div class="w-full">
+      <div class="w-full overflow-hidden p-6">
         <nuxt />
       </div>
     </div>
   </div>
 </template>
-
 <script>
-import leftbar from "../components/leftbar.vue";
-import navbar from "../components/navbar.vue";
+import leftbar from "~/components/leftbar.vue";
+import navbar from "~/components/navbar.vue";
 
 export default {
   components: {

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col space-y-4 w-1/4">
+  <div class="md:flex flex-col space-y-4 w-1/4 hidden">
     <div class="bg-white p-4 rounded-lg shadow-sm">
       <span class="font-bold text-xl">Kategori</span>
       <ul class="mt-4 flex flex-col space-y-3">
@@ -35,9 +35,7 @@ export default {
   },
   methods: {
     async getTags() {
-      let response = await fetch(
-        "https://css-tricks.com/wp-json/wp/v2/tags"
-      );
+      let response = await fetch("https://css-tricks.com/wp-json/wp/v2/tags");
       let results = await response.json();
 
       console.log(results);
