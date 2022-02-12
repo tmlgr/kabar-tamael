@@ -48,5 +48,8 @@ export default {
   props: {
     post: Object,
   },
+  mounted()  {
+    console.log(this.post);
+  }
 };
 </script>

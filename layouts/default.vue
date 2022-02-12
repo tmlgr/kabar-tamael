@@ -3,7 +3,7 @@
     <navbar />
 
     <div
-      :class="[isOpen ? 'w-screen' : 'w-0']"
+      :class="[isOpen ? 'w-64' : 'w-0']"
       class="fixed top-0 block bottom-0 left-0 z-50 w-0 h-full min-h-screen overflow-y-auto text-gray-400 transition-all duration-300 ease-in-out bg-gray-900 shadow-lg overflow-x-hidden"
     >
       <div class="flex items-center p-6">
