@@ -1,6 +1,6 @@
 import type { IncomingMessage, ServerResponse } from "http";
 
-export default async (req: IncomingMessage, res: ServerResponse) => {
+export default async (req: any, res: ServerResponse) => {
   const { pathname } = new URL(req.url, `https://${req.headers.host}`);
   const slug = pathname.split("/")[1] || undefined;
 
@@ -11,7 +11,7 @@ export default async (req: IncomingMessage, res: ServerResponse) => {
 
     const data = await response.json();
 
-    const formated = data.map((post) => {
+    const formated = data.map((post: any) => {
       const { author } = post._embedded;
 
       return {
@@ -38,7 +38,7 @@ export default async (req: IncomingMessage, res: ServerResponse) => {
 
   const data = await response.json();
 
-  const formated = data.map((post) => {
+  const formated = data.map((post: any) => {
     const { author } = post._embedded;
 
     return {
