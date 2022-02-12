@@ -10,6 +10,7 @@ import { createFetch as createFetch$1, Headers } from 'ohmyfetch';
 import destr from 'destr';
 import { createCall, createFetch } from 'unenv/runtime/fetch/index';
 import { error404, errorDev } from '@nuxt/design';
+import fetch from 'node-fetch';
 import { createRenderer } from 'vue-bundle-renderer';
 import devalue from '@nuxt/devalue';
 import defu from 'defu';
@@ -106,7 +107,16 @@ function handleError(error, req, res) {
   res.end(html);
 }
 
-const middleware = [];
+const _ecdab4 = () => Promise.resolve().then(function () { return posts$1; });
+
+const middleware = [
+  {
+    route: "/api/posts",
+    handle: _ecdab4,
+    lazy: true,
+    promisify: true
+  }
+];
 
 const app = createApp({
   debug: destr(true),
@@ -145,7 +155,59 @@ server.listen(listenAddress, () => {
   });
 });
 
-const STATIC_ASSETS_BASE = "/_nuxt/home/rizkhal/Project/tamael-news/dist" + "/" + "1644651128";
+const posts = async (req, res) => {
+  const { pathname } = new URL(req.url, `https://${req.headers.host}`);
+  const slug = pathname.split("/")[1] || void 0;
+  if (typeof slug == "undefined") {
+    const response2 = await fetch(`${process.env.API_BASE}/wp-json/wp/v2/posts?per_page=6&_embed`);
+    const data2 = await response2.json();
+    const formated2 = data2.map((post) => {
+      const { author } = post._embedded;
+      return {
+        slug: post.slug,
+        created_at: post.date,
+        title: post.title.rendered,
+        cover: post.jetpack_featured_media_url,
+        categories: post._embedded["wp:term"][0],
+        author: {
+          name: author[0].name,
+          profile_picture: Object.values(author[0].avatar_urls)[1]
+        }
+      };
+    });
+    return {
+      posts: formated2
+    };
+  }
+  const response = await fetch(`${process.env.API_BASE}/wp-json/wp/v2/posts?slug=${slug}&_embed`);
+  const data = await response.json();
+  const formated = data.map((post) => {
+    const { author } = post._embedded;
+    return {
+      created_at: post.date,
+      title: post.title.rendered,
+      content: post.content.rendered,
+      cover: post.jetpack_featured_media_url,
+      related: post["jetpack-related-posts"],
+      categories: post._embedded["wp:term"][0],
+      tags: post._embedded["wp:term"][1],
+      author: {
+        name: author[0].name,
+        profile_picture: Object.values(author[0].avatar_urls)[1]
+      }
+    };
+  });
+  return {
+    post: formated[0]
+  };
+};
+
+const posts$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  'default': posts
+});
+
+const STATIC_ASSETS_BASE = "/_nuxt/home/rizkhal/Project/tamael-news/dist" + "/" + "1644686480";
 const PAYLOAD_JS = "/payload.js";
 const getClientManifest = cachedImport(() => import('/home/rizkhal/Project/tamael-news/.nuxt/dist/server/client.manifest.mjs'));
 const getSSRApp = cachedImport(() => import('/home/rizkhal/Project/tamael-news/.nuxt/dist/server/server.mjs'));

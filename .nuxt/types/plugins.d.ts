@@ -9,6 +9,8 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin").default> &
   InjectionType<typeof import("../../node_modules/nuxt3/dist/meta/runtime/plugin").default> &
   InjectionType<typeof import("../../node_modules/nuxt3/dist/pages/runtime/router").default> &
+  InjectionType<typeof import("../../plugins/datetime").default> &
+  InjectionType<typeof import("../../plugins/vue-lazyload").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/nitro/dist/runtime/app/nitro.client").default> &
   InjectionType<typeof import("#build/components").default>
 

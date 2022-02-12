@@ -33,7 +33,9 @@
       <leftbar />
 
       <div class="w-full overflow-hidden">
-        <slot />
+        <keep-alive>
+          <nuxt-page />
+        </keep-alive>
       </div>
     </div>
   </div>

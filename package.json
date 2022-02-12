@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.5",
+    "date-fns": "^2.28.0",
     "vue": "^3.2.30",
-    "vuex": "^4.0.2"
+    "vue3-lazyload": "^0.2.5-beta"
   }
 }
