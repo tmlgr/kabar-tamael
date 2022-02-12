@@ -207,7 +207,7 @@ const posts$1 = /*#__PURE__*/Object.freeze({
   'default': posts
 });
 
-const STATIC_ASSETS_BASE = "/_nuxt/home/rizkhal/Project/tamael-news/dist" + "/" + "1644690016";
+const STATIC_ASSETS_BASE = "/_nuxt/home/rizkhal/Project/tamael-news/dist" + "/" + "1644690172";
 const PAYLOAD_JS = "/payload.js";
 const getClientManifest = cachedImport(() => import('/home/rizkhal/Project/tamael-news/.nuxt/dist/server/client.manifest.mjs'));
 const getSSRApp = cachedImport(() => import('/home/rizkhal/Project/tamael-news/.nuxt/dist/server/server.mjs'));
