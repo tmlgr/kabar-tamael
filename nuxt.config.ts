@@ -38,6 +38,5 @@ export default defineNuxtConfig({
     // http://tamael.local:46031
     API_BASE: process.env.API_BASE,
   },
-  loading: { color: "red" },
   css: ["~/assets/css/main.css", "~/assets/css/tailwind.css"],
 });
