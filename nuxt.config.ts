@@ -5,9 +5,6 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
-  nitro: {
-    preset: "vercel",
-  },
   meta: {
     meta: [
       { name: "charset", content: "utf-8" },
