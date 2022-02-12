@@ -11,10 +11,11 @@
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.5",
+    "@nuxtjs/vercel-builder": "^0.22.1",
     "date-fns": "^2.28.0",
-    "vue": "^3.2.30",
-    "vue3-lazyload": "^0.2.5-beta",
     "nuxt3": "latest",
-    "tailwindcss": "^3.0.7"
+    "tailwindcss": "^3.0.7",
+    "vue": "^3.2.30",
+    "vue3-lazyload": "^0.2.5-beta"
   }
 }
