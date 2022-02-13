@@ -1,8 +1,5 @@
 <template>
   <div class="flex flex-col divide-y">
-    <div class="p-6">
-      <page-title title="<strong>Kabar</strong> terkini" />
-    </div>
     <template v-if="posts">
       <div
         v-for="(post, index) in posts"

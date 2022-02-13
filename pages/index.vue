@@ -1,11 +1,24 @@
 <template>
   <div class="w-full">
-    <div class="p-6">
+    <div class="bg-white border-t shadow p-6">
       <PageTitle title="<strong>Headline</strong> Hari Ini" />
       <Headline />
     </div>
 
+    <div class="p-6">
+      <PageTitle title="<strong>Kabar</strong> Terkini" />
+    </div>
+
     <Posts :posts="posts" />
+
+    <div class="p-6">
+      <NuxtLink
+        to="/posts"
+        class="p-3 block text-center w-full text-white font-semibold bg-green-500 rounded shadow focus:opacity-60"
+      >
+        Lihat Semua
+      </NuxtLink>
+    </div>
   </div>
 </template>
 
@@ -17,24 +30,13 @@ export default {
     );
 
     const formated = data.map((post) => {
-      const embeded = post._embedded;
-
-      return {
-        slug: post.slug,
-        created_at: post.date,
-        title: post.title.rendered,
-        cover: embeded["wp:featuredmedia"]
-          ? embeded["wp:featuredmedia"][0].source_url
-          : require(`~/assets/img/___.png`),
-        categories: post._embedded["wp:term"][0],
-        author: {
-          name: embeded.author[0].name,
-          profile_picture: Object.values(embeded.author[0].avatar_urls)[1],
-        },
-      };
+      return store._vm.formatPosts(post);
     });
 
     return { posts: formated };
+  },
+  mixins: {
+    formatPosts: Function,
   },
 };
 </script>

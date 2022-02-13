@@ -1,26 +1,43 @@
 <template>
-  <div class="flex flex-col space-y-4">
-    <headline v-for="(post, index) in posts" :key="index" :post="post" />
+  <div class="w-full">
+    <div class="p-6">
+      <PageTitle title="<strong>Semua</strong> Kabar" />
+    </div>
+
+    <Posts :posts="posts" />
   </div>
 </template>
 
 <script>
 export default {
-  layout: "default",
-  data() {
-    return {
-      posts: null,
-    };
+  async asyncData({ app, store, params }) {
+    const { data } = await app.$axios.get(
+      `/wp/v2/posts?orderby=date&per_page=10&_embed`
+    );
+
+    const formated = data.map((post) => {
+      return store._vm.formatPosts(post);
+    });
+
+    return { posts: formated };
   },
   mounted() {
-    this.getPosts();
+    this.morePosts();
+  },
+  mixins: {
+    formatPosts: Function,
   },
   methods: {
-    async getPosts() {
-      let response = await fetch("https://css-tricks.com/wp-json/wp/v2/posts");
-      let result = await response.json();
+    morePosts() {
+      window.onscroll = () => {
+        let bottomOfWindow =
+          document.documentElement.scrollTop + window.innerHeight ===
+          document.documentElement.offsetHeight;
 
-      this.posts = result;
+        if (bottomOfWindow) {
+          //
+        }
+      };
     },
   },
 };
