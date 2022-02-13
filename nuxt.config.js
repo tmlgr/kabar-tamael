@@ -1,5 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  loading: {
+    color: "#10b981",
+    height: "3px",
+  },
   head: {
     title: "Kabar Tamael",
     htmlAttrs: {
@@ -19,7 +23,11 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    // "~/plugins/horizontal-list.js"
+    "~/plugins/datetime.js",
+    {
+      ssr: false,
+      src: "~/plugins/vue-lazyload",
+    },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -39,8 +47,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: "/",
+    baseURL: process.env.WORDPRESS_API_URL, // Used as fallback if no runtime config is provided
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
