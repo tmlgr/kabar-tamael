@@ -23,7 +23,9 @@ export default {
         slug: post.slug,
         created_at: post.date,
         title: post.title.rendered,
-        cover: embeded["wp:featuredmedia"][0].source_url,
+        cover: embeded["wp:featuredmedia"]
+          ? embeded["wp:featuredmedia"][0].source_url
+          : require(`~/assets/img/___.png`),
         categories: post._embedded["wp:term"][0],
         author: {
           name: embeded.author[0].name,

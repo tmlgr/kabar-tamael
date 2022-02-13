@@ -18,7 +18,9 @@ export default {
         title: post.title.rendered,
         content: post.content.rendered,
         excerpt: post.excerpt.rendered,
-        cover: embeded["wp:featuredmedia"][0].source_url,
+        cover: embeded["wp:featuredmedia"]
+          ? embeded["wp:featuredmedia"][0].source_url
+          : require(`~/assets/img/___.png`),
         related: post["jetpack-related-posts"],
         categories: post._embedded["wp:term"][0],
         tags: post._embedded["wp:term"][1],

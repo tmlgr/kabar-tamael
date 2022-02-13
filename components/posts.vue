@@ -20,7 +20,7 @@
           <nuxt-link :to="`/posts/${post.slug}`">
             <h3
               class="font-semibold text-lg leading-tight"
-              v-html="post.title"
+              v-html="truncate(post.title)"
             ></h3>
           </nuxt-link>
         </div>
@@ -56,6 +56,9 @@
 export default {
   props: {
     posts: [Array, Object],
+  },
+  mixins: {
+    truncate: Function,
   },
 };
 </script>
