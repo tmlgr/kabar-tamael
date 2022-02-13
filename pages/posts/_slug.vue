@@ -1,6 +1,7 @@
 <template>
   <div>
     <SinglePost :post="post[0]" />
+    <Comments :post="post[0]" />
   </div>
 </template>
 <script>

@@ -25,6 +25,7 @@ export default {
   plugins: [
     "~/plugins/mixins.js",
     "~/plugins/datetime.js",
+    "~/plugins/vue-disqus.js",
     {
       ssr: false,
       src: "~/plugins/vue-lazyload",
