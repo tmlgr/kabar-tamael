@@ -12,17 +12,17 @@ export default async (req: any, res: ServerResponse) => {
     const data = await response.json();
 
     const formated = data.map((post: any) => {
-      const { author } = post._embedded;
+      const embeded = post._embedded;
 
       return {
         slug: post.slug,
         created_at: post.date,
         title: post.title.rendered,
-        cover: post.jetpack_featured_media_url,
+        cover: embeded["wp:featuredmedia"][0].source_url,
         categories: post._embedded["wp:term"][0],
         author: {
-          name: author[0].name,
-          profile_picture: Object.values(author[0].avatar_urls)[1],
+          name: embeded.author[0].name,
+          profile_picture: Object.values(embeded.author[0].avatar_urls)[1],
         },
       };
     });
@@ -39,19 +39,20 @@ export default async (req: any, res: ServerResponse) => {
   const data = await response.json();
 
   const formated = data.map((post: any) => {
-    const { author } = post._embedded;
+    const embeded = post._embedded;
 
     return {
       created_at: post.date,
       title: post.title.rendered,
       content: post.content.rendered,
-      cover: post.jetpack_featured_media_url,
+      excerpt: post.excerpt.rendered,
+      cover: embeded["wp:featuredmedia"][0].source_url,
       related: post["jetpack-related-posts"],
       categories: post._embedded["wp:term"][0],
       tags: post._embedded["wp:term"][1],
       author: {
-        name: author[0].name,
-        profile_picture: Object.values(author[0].avatar_urls)[1],
+        name: embeded.author[0].name,
+        profile_picture: Object.values(embeded.author[0].avatar_urls)[1],
       },
     };
   });

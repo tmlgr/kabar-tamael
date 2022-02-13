@@ -34,7 +34,7 @@
 
       <div class="w-full overflow-hidden">
         <keep-alive>
-          <nuxt-page />
+          <slot></slot>
         </keep-alive>
       </div>
     </div>

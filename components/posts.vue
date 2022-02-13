@@ -1,43 +1,59 @@
 <template>
-  <div>
-    <div class="mt-4 bg-white p-2 rounded-xl shadow-sm">
-      <img
-        :src="post.featured_media_src_url"
-        :alt="post.title.rendered"
-        class="rounded-xl object-fill min-w-full"
-      />
-      <div class="flex items-center px-6">
-        <div class="mt-4">
-          <ul class="flex flex-row space-x-2">
-            <li
-              v-for="(v, i) in 3"
-              :key="i"
-              class="bg-green-300 py-[1px] px-2 rounded-full text-sm text-green-700"
-            >
-              Ternate {{ ++i }}
-            </li>
-          </ul>
-        </div>
-        <div class="ml-auto mt-4">
-          <ul class="flex flex-row space-x-4">
-            <li>dwd</li>
-            <li>dwd</li>
-            <li>dwd</li>
-          </ul>
-        </div>
-      </div>
-      <p class="mt-4 font-semibold px-4 pb-4">
-        {{ post.title.rendered }}
-      </p>
+  <div class="flex flex-col divide-y">
+    <div class="p-6">
+      <page-title title="<strong>Kabar</strong> terkini" />
     </div>
+    <template v-if="posts">
+      <div
+        v-for="(post, index) in posts"
+        :key="index"
+        class="relative p-[15px] bg-white min-h-4"
+      >
+        <div class="relative float-right w-[130px] h-[130px]">
+          <img
+            :alt="post.title"
+            v-lazy="post.cover"
+            class="rounded-xl object-cover min-w-full min-h-full"
+          />
+        </div>
+        <div class="text-gray-800">
+          <nuxt-link :to="`/posts/${post.slug}`">
+            <h3
+              class="font-semibold text-lg leading-tight"
+              v-html="post.title"
+            ></h3>
+          </nuxt-link>
+        </div>
+        <div class="mt-[5px] mb-2 flex flex-row items-center space-x-2">
+          <span
+            class="font-semibold text-green-500"
+            v-for="(category, index) in post.categories"
+            :key="index"
+            v-html="category.name"
+          ></span>
+        </div>
+        <span class="text-gray-600 absolute bottom-3">
+          <div class="flex">
+            <div>
+              <img
+                :alt="post.author.name"
+                v-lazy="post.author.profile_picture"
+                class="rounded-full w-[2.5em] h-[2.5em] mr-2"
+              />
+            </div>
+            <div class="flex flex-col">
+              <span class="font-semibold">{{ post.author.name }}</span>
+              <span class="text-xs">{{ $datetime(post.created_at) }}</span>
+            </div>
+          </div>
+        </span>
+      </div>
+    </template>
   </div>
 </template>
 
-<script>
-export default {
-  name: "headline",
-  props: {
-    post: Object,
-  },
-};
+<script setup>
+defineProps({
+  posts: [Object, Array],
+});
 </script>
