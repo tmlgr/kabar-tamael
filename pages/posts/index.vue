@@ -50,7 +50,7 @@ export default {
       window.onscroll = () => {
         let bottomOfWindow =
           document.documentElement.scrollTop + window.innerHeight >=
-          document.documentElement.offsetHeight;
+          document.documentElement.offsetHeight - 10;
 
         if (bottomOfWindow && !this.isAll) {
           this.loading = true;
