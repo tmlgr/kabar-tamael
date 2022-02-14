@@ -35,8 +35,5 @@ export default {
 
     return { posts: formated };
   },
-  mixins: {
-    formatPosts: Function,
-  },
 };
 </script>
