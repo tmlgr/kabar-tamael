@@ -1,7 +1,12 @@
 <template>
   <header class="items-center shadow md:px-4">
-    <div class="flex items-center px-3 py-5 bg-white" :class="{ 'border-b': isOpen }">
-      <a href="/" class="text-xl font-bold uppercase"> Tamael </a>
+    <div
+      :class="{ 'border-b': isOpen }"
+      class="flex items-center px-3 py-5 bg-white"
+    >
+      <span @click.prevent="homeScrollTop" class="text-xl font-bold uppercase">
+        Tamael
+      </span>
       <button @click.prevent="toggle" type="button" class="ml-auto">
         <hamburger />
       </button>
@@ -25,6 +30,9 @@
 import { mapState, mapMutations } from "vuex";
 
 export default {
+  mixins: {
+    homeScrollTop: Function,
+  },
   computed: {
     ...mapState(["isOpen"]),
   },

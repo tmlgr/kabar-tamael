@@ -9,9 +9,17 @@ Vue.mixin({
 
       return string.slice(0, limit) + "...";
     },
+    homeScrollTop() {
+      if (window.location.pathname === "/") {
+        // vue-scrollto plugins
+        this.$scrollTo(document, 500);
+      } else {
+        this.$router.push("/");
+      }
+    },
     formatPosts(post) {
       const embeded = post._embedded;
-      
+
       return {
         slug: post.slug,
         created_at: post.date,

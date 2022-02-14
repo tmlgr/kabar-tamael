@@ -30,6 +30,10 @@ export default {
       ssr: false,
       src: "~/plugins/vue-lazyload",
     },
+    {
+      ssr: false,
+      src: "~/plugins/vue-scrollto",
+    },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
