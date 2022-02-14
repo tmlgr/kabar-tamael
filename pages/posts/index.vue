@@ -45,21 +45,12 @@ export default {
   mixins: {
     formatPosts: Function,
   },
-  watch: {
-    loading: {
-      handler(value) {
-        if (value) {
-          console.log("loading..");
-        }
-      },
-    },
-  },
   methods: {
     morePosts() {
       window.onscroll = () => {
         let bottomOfWindow =
-          document.documentElement.scrollTop + window.innerHeight ===
-          document.documentElement.offsetHeight;
+          document.documentElement.scrollTop + window.innerHeight + 10 ===
+          document.documentElement.offsetHeight + 10;
 
         if (bottomOfWindow && !this.isAll) {
           this.loading = true;
